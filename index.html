@@ -568,9 +568,13 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 																					<font size="5">We at Lost Cats of America are here to help you with your missing or found cat.</font>
 																				</strong>
 																				<br />
-																				We are united with common goals. To help get your lost cat home, to help find the home of your found cat and to educate the public about over crowding the shelters. If you have a Lost cat, have Found a cat, or have Sighted a cat, please fill out a Free report with us. Your report will go to the appropriate state for the volunteers to post on their Facebook page. The links to our partnered states are listed below. We are partnered with HeLP (Helping Lost Pets)
-																				<a href="https://www.helpinglostpets.com/">www.helpinglostpets.com</a>.
-																				So when you fill out a report with HeLP, we will be able to make a free flier for you to share both online and&nbsp; to print out. Your cat will also go on HeLP's map search. You are able to use this search to find Lost and Found cats in your area.&nbsp;&nbsp; Please note that some of the pages are the Lost Dog pages. This just means we we do not have a separate Lost Cats page in that state. Rest assured, our volunteers will take care of you on the Lost Dog pages.
+																				We are united with common goals. To help get your lost cat home, to help find the home of your found cat and to educate the public about over crowding the shelters. If you have a Lost cat, have Found a cat, or have Sighted a cat, please fill out a Free report with us. Your report will go to the appropriate state for the volunteers to post on their Facebook page. The links to our partnered states are listed below.
+																				
+																				We are partnered with
+																				<a href="https://petfbi.org">PetFBI</a>
+																				So when you fill out a report with PetFBI, we will be able to make a free flier for you to share both online and to print out. Your cat will also go on PetFBI's map search.
+																				
+																				You are able to use this search to find Lost and Found cats in your area.&nbsp;&nbsp; Please note that some of the pages are the Lost Dog pages. This just means we we do not have a separate Lost Cats page in that state. Rest assured, our volunteers will take care of you on the Lost Dog pages.
 																				<br />
 																				<strong>We are all one team, here for one sole purpose....to HeLP Pets get Home!&nbsp;</strong>
 																				<br />
@@ -750,52 +754,12 @@ if (document.documentElement.appReady || (window.inEditor && window.inEditor()))
 																			</div>
 																		</td>
 																		<td class="wsite-multicol-col" style="width:36.019417475728%; padding:0 15px;">
-																			<div class="paragraph">
+																			<div id="facebookLinks" class="paragraph">
 																				<strong>
 																					<font size="5">State Pages</font>
 																				</strong>
 																				<br />
-																				<a href="https://www.facebook.com/LostCatsAlabama/" target="_blank">Lost Cats Alabama</a>
-																				<br />
-																				<a href="https://www.facebook.com/lostcatsaz/" target="_blank">Lost Cats Arizona</a>
-																				<br />
-																				<a href="https://www.facebook.com/californialostcats/" target="_blank">California Lost Cats</a>
-																				<br />
-																				<a href="https://www.facebook.com/LostCatsColorado/" target="_blank">Lost Cats Colorado</a>
-																				<br />
-																				<a href="https://www.facebook.com/Lost-Found-Cats-of-Connecticut-847469515324198/" target="_blank">Lost and Found Cats of Connecticut</a>
-																				<br />
-																				<a href="https://www.facebook.com/Lost-Found-Cats-of-Delaware-890096977680460/" target="_blank">Lost and Found Cats of Delaware</a>
-																				<br />
-																				<a href="https://www.facebook.com/LostCatsFlorida/" target="_blank">Lost Cats Florida</a>
-																				<br />
-																				<a href="https://www.facebook.com/LostCatsGeorgia/" target="_blank">Lost Cats Georgia</a>
-																				<br />
-																				<a href="https://www.facebook.com/LostCatsIdaho/" target="_blank">Lost Cats Idaho</a>
-																				<br />
-																				<a href="https://www.facebook.com/LostCatsIllinois/" target="_blank">Lost Cats Illinois</a>
-																				<br />
-																				<a href="https://www.facebook.com/LostCatsIndiana/" target="_blank">Lost Cats Indiana</a>
-																				<br />
-																				<a href="https://www.facebook.com/LostCatsIowa/?modal=admin_todo_tour" target="_blank">Lost Cats Iowa</a>
-																				<br />
-																				<a href="https://www.facebook.com/lostcatsla/" target="_blank">Lost Cats Louisiana</a>
-																				<br />
-																				<a href="https://www.facebook.com/LostCatsMaine/" target="_blank">Lost Cats Maine</a>
-																				<br />
-																				<a href="https://www.facebook.com/MA.Lost.Pets" target="_blank">MA Lost Pets</a>
-																				<br />
-																				<a href="https://www.facebook.com/LostCatsMichigan/" target="_blank">Lost Cats Michigan</a>
-																				<br />
-																				<a href="https://www.facebook.com/LostCatsMinnesota/" target="_blank">Lost Cats Minnesota</a>
-																				<br />
-																				<a href="https://www.facebook.com/LostCatsMississippi/" target="_blank">Lost Cats Mississippi</a>
-																				<br />
-																				<a href="https://www.facebook.com/LostCatsMontana/" target="_blank">Lost Cats Montana</a>
-																				<br />
-																				<a href="https://www.facebook.com/LostCatsOhio/" target="_blank">Lost Cats Ohio</a>
-																				<br />
-																				<a href="https://www.facebook.com/LostCatsofWisconsin/" target="_blank">Lost Cats of Wisconsin</a>
+																				<!-- Facebook links will be added here via javascript -->
 																			</div>
 																		</td>
 																	</tr>
@@ -995,5 +959,9 @@ if (document.documentElement.appReady || (window.inEditor && window.inEditor()))
 			window._W.showCookieToAll = "";
 		</script>
 
+		<script src='/julie/facebookLinks.js'></script>
+		<script>
+			addFacebookLinksToPage();
+		</script>
 	</body>
 </html>
