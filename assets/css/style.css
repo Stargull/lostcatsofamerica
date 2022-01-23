@@ -491,6 +491,10 @@ section {
 .about .icon-boxes .icon-box p {
   font-size: 15px;
 }
+.about .icon-boxes a {
+  color: #fff;
+  text-decoration: underline;
+}
 @media (max-width: 1200px) {
   .about .content {
     padding-right: 0;
