@@ -42,14 +42,14 @@ const facebookLinks = [
     { state: 'Montana', text: 'Lost Cats Montana', uri: 'https://www.facebook.com/LostCatsMontana/' },
     { state: 'Ohio', text: 'Lost Cats Ohio', uri: 'https://www.facebook.com/LostCatsOhio/' },
     { state: 'Wisconsin', text: 'Lost Cats of Wisconsin', uri: 'https://www.facebook.com/LostCatsofWisconsin/' },
-    { state: 'Alaska', text: 'Lost Cats of Alaska', uri: 'https://www.facebook.com/LostCatsAlaska/' },
-    { state: 'Hawaii', text: 'Lost Cats of Hawaii', uri: 'https://www.facebook.com/LostCatsHawaii' },
-    { state: 'Oklahoma', text: 'Lost Cats of Oklahoma', uri: 'https://www.facebook.com/LostCatsOklahoma'},
-    { state: 'Utah', text: 'Lost Cats of Utah', uri: 'https://www.facebook.com/Lost-Cats-Utah-103001218978143' },
-    { state: 'Virginia', text: 'Lost Cats of Virginia', uri: 'https://www.facebook.com/LostCatsVirginia' },
-    { state: 'West Virginia', text: 'Lost Cats of West Virginia', uri: 'https://www.facebook.com/LostCatsWestVirginia' },
-    { state: 'Wyoming', text: 'Lost Cats of Wyoming', uri: 'https://www.facebook.com/LostCatsWyoming' },
-    { state: 'Washington DC', text: 'Lost Cats of Washington DC', uri: 'https://www.facebook.com/LostCatsDC' }
+    { state: 'Alaska', text: 'Lost Cats Alaska', uri: 'https://www.facebook.com/LostCatsAlaska/' },
+    { state: 'Hawaii', text: 'Lost Cats Hawaii', uri: 'https://www.facebook.com/LostCatsHawaii' },
+    { state: 'Oklahoma', text: 'Lost Cats Oklahoma', uri: 'https://www.facebook.com/LostCatsOklahoma'},
+    { state: 'Utah', text: 'Lost Cats Utah', uri: 'https://www.facebook.com/Lost-Cats-Utah-103001218978143' },
+    { state: 'Virginia', text: 'Lost Cats Virginia', uri: 'https://www.facebook.com/LostCatsVirginia' },
+    { state: 'West Virginia', text: 'Lost Cats West Virginia', uri: 'https://www.facebook.com/LostCatsWestVirginia' },
+    { state: 'Wyoming', text: 'Lost Cats Wyoming', uri: 'https://www.facebook.com/LostCatsWyoming' },
+    { state: 'Washington DC', text: 'Lost Cats DC', uri: 'https://www.facebook.com/LostCatsDC' }
 ];
 
 function addFacebookLinksToPage() {
