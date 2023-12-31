@@ -24,7 +24,7 @@ const facebookLinks = [
     { state: 'Alabama', text: 'Lost Cats Alabama', uri: 'https://www.facebook.com/LostCatsAlabama/' },
     { state: 'Arizona', text: 'Lost Cats Arizona', uri: 'https://www.facebook.com/lostcatsaz/' },
     { state: 'California', text: 'California Lost Cats', uri: 'https://www.facebook.com/californialostcats/' },
-    { state: 'Colorado', text: 'Lost Cats Colorado', uri: 'https://www.facebook.com/coloradolostfoundpets' },
+    { state: 'Colorado', text: 'Colorado Lost & Found Pets', uri: 'https://www.facebook.com/coloradolostfoundpets' },
     { state: 'Connecticut', text: 'Lost Cats Connecticut', uri: 'https://www.facebook.com/Lost-Found-Cats-of-Connecticut-847469515324198/' },
     { state: 'Delaware', text: 'Lost Cats Delaware', uri: 'https://www.facebook.com/Lost-Found-Cats-of-Delaware-890096977680460/' },
     { state: 'Florida', text: 'Lost Cats Florida', uri: 'https://www.facebook.com/LostCatsFlorida/' },
